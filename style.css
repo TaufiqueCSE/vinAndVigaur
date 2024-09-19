@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    background-image: url("images/body-background-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-screen-arrow{
+    position:fixed ;
+    bottom: 1rem;
+    right: 1rem;
+    width: 2rem;
+    visibility: 0.7;
+    transform: rotate(90deg);
+    z-index: 1000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0rem 1rem;
+    align-items: end;
+    position: relative;
+    position: fixed;
+    top: 0;  
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-icon i{
+    padding: 0.68rem 0.9rem;
+    background-color: rgba(0, 0, 0, 0.916);
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+nav .nav-item a{
+    font-size: 0.85rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+}
+nav .nav-item a:hover{
+    color: whitesmoke;
+}
+
+/* first page ------ ----------
+------------------- */
+.firstpage{
+    padding-bottom: 11rem;
+    background-color: #313033;
+}
+.firstpage .header{
+    background-color: #313033;
+    padding: 5rem 11.5rem;
+    text-align: center;
+    /* color: white; */
+    position: relative;
+    margin-top: 100vh;
+}
+.firstpage hr{
+    transform: rotate(90deg);
+    width: 6.5rem;
+    position: absolute;
+    left: 46%;
+    top: -2%;
+}
+.firstpage h1{
+    font-size: 2.3rem;
+    color: white; 
+    margin-bottom: 2.5rem;
+}
+.firstpage .link a{
+    font-size: 0.68rem;
+    color: white;
+    margin-right: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+.firstpage .link a:hover{
+    text-decoration: underline;
+    color: rgb(175, 175, 239);
+}
+.firstpage p{
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.881);
+    margin-top: 2.5rem;
+    line-height: 1.45rem;
+    word-spacing: 0.1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstpage h1 span{
+   font-family: 'Playfair Display', serif;
+}
+
+.firstpage-image{
+    width: 100%;
+    height: 120vh;
+    padding: 0 3rem;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+}
+
+/* secondpage css */
+.secondpage{
+    padding: 8rem 3rem;
+    background-color: #F3F3F4;
+    text-align: center;
+    width: 100%;
+}
+.secondpage img{
+    width: 100%;
+}
+
+/* thirdpage css */
+.thirdpage{
+    padding: 10rem 0rem;
+    text-align: center;
+    width: 100%;
+    background-color: #313033;
+}
+.thirdpage img{
+    width: 72%;
+}
+/* fourthpage start css ----------
+----------------------- */
+
+.fourthpage{
+    padding: 10rem 0rem;
+    text-align: center;
+    width: 100%;
+    background-color: #F3F3F4;
+}
+.fourthpage img{
+    width: 72%;
+}
+
+/* fifth page ------------------------
+---------------------------- */
+
+.fifthpage{
+    width: 100%;
+}
+
+/* fifth page row 1 -------------
+----------------------- */
+.fifthpage .row1{
+    display: flex;
+    height: 50vh;
+}
+.fifthpage .row1 .left{
+    width: 50%;
+    height: 100%;
+    background-color: #262626;
+    text-align: center;
+    
+}
+.fifthpage .row1 .left .overlay1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #26262600;
+}
+.fifthpage .row1 .left:hover{
+    background: url("images/image5-hover.png");
+    background-size: cover;
+}
+.fifthpage .row1 .left:hover .overlay1{
+    background-color: #171717c7;
+}  
+
+.fifthpage .row1 .right{
+    width: 50%;
+    height: 100%;
+    background-color: #212121;
+    text-align: center;
+}
+
+.fifthpage .row1 .right .overlay2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.fifthpage .row1 .right:hover{
+    background: url("images/image6-hover.jpg");
+    background-size: cover;
+}
+.fifthpage .row1 .right:hover .overlay2{
+    background-color: #212121d8;
+}  
+
+
+.heading-5page h1{
+    margin-bottom: 1.5rem;
+}
+.heading-5page p{
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+/* fifth page row 2 ----------------
+------------------------- */
+.row2 {
+    display: flex;
+    padding: 3.5rem 10rem;
+    background-color: #1A1A1A;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2 a img{
+    width: 14rem;
+}
+.row2 a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 0.86rem;
+}
+
+/* row 3 css start -------------------
+--------------------- */
+.row3{
+    background: url("images/iamge7.jpg");
+    background-position: top;
+    background-size: 100% 31rem;
+}
+.row3 .overlay3{
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00000080;
+}
+.row3 .overlay3 p{
+    font-size: 0.68rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.row3 .overlay3 h1{
+    font-size: 1.3rem;
+    color: white;
+}
